@@ -1,0 +1,44 @@
+Studio Writeup
+Part A:
+A. t(n) = n
+B. n(n-1)/2
+C. n*(n+1)/2
+D: (n(n+1)(2n+1))/6
+E: ((n(n+1)(2n+1))/6 - n)
+
+Part B:
+1. Under the condition that n0 is 2
+	c: 1000. 
+	n <= cn^2
+		2 <= 1000 * 2^2
+		
+2. Take derivative
+	1000 <= 2n
+
+3. Second derivative of (n+1)^2 - nlogn
+	is positive.
+	First derivative 2n +2 -log n -1 
+	is always increasing.
+	Positive.
+	
+Part C:
+1. Take derivative of both side.
+	0 <= 2n.
+	
+2. n >= n0, n0 = b/a, n >= b/a 
+	by association
+	
+Part D: 
+1. Wrong. n^2 > 5000. n^2 < 5000.
+
+2. n = O(an + b), n <= c(an + b)
+
+Part E:
+1. n^1.5
+2. 1.01 ^n
+3. It's big theta.
+
+Part E2:
+Just need to prove that it's big O as 
+the value increases, and big Omega 
+as the value decreases.

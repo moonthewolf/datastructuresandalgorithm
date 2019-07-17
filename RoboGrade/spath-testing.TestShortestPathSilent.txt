@@ -1,0 +1,132 @@
+-------------------
+CSE247 Robot tester starts testing spath on 2018-12-17 01:06:32 -0500
+
+========
+Testing in ./GradingRepos/repos/cse247-f18-students-davidmoon: spath as of 2018-12-08 06:00
+========
+Now in: /Users/puneetsachdeva/CSE247/cse247-support/GradingRepos/repos/cse247-f18-students-davidmoon
+Your branch is up to date with 'origin/master'.
+HEAD is now at 68b0788 robograde
+No local changes to save
+
+Updating 68b0788..3c9f7e8
+Fast-forward
+ RoboGrade/avl-test.TestBalancedTree.txt | 8325 ++++++++++++++++++++++++++++++-
+ 1 file changed, 8127 insertions(+), 198 deletions(-)
+Going back in time to: 2018-12-08 06:00
+At hash fadcf983f101316bcfdc0a90361ad8179c742065
+
+Buildfile: /Users/puneetsachdeva/CSE247/cse247-support/build.xml
+
+copytest:
+     [echo] would copy from /Users/puneetsachdeva/CSE247/cse247-f18-students key davidmoon testfilesource testing/TestShortestPathSilent package spath repo ./GradingRepos/repos/cse247-f18-students-davidmoon
+Compiling the code
+Buildfile: /Users/puneetsachdeva/CSE247/cse247-support/build.xml
+
+compile:
+     [echo] Compiling spath/ShortestPaths
+    [mkdir] Created dir: /Users/puneetsachdeva/CSE247/cse247-support/GradingRepos/repos/cse247-f18-students-davidmoon/bin
+    [javac] Compiling 1 source file to /Users/puneetsachdeva/CSE247/cse247-support/GradingRepos/repos/cse247-f18-students-davidmoon/bin
+
+BUILD SUCCESSFUL
+Total time: 1 second
+Buildfile: /Users/puneetsachdeva/CSE247/cse247-support/build.xml
+
+compile:
+     [echo] Compiling spath/testing/TestShortestPathSilent
+    [javac] Compiling 1 source file to /Users/puneetsachdeva/CSE247/cse247-support/GradingRepos/repos/cse247-f18-students-davidmoon/bin
+
+BUILD SUCCESSFUL
+Total time: 1 second
+Running test testing.TestShortestPathSilent
+Buildfile: /Users/puneetsachdeva/CSE247/cse247-support/build.xml
+
+test:
+    [junit] Running spath.testing.TestShortestPathSilent
+    [junit] Testsuite: spath.testing.TestShortestPathSilent
+    [junit] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.027 sec
+    [junit] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.027 sec
+    [junit] 
+    [junit] Testcase: test took 0.004 sec
+    [junit] 	Caused an ERROR
+    [junit] Index: 0, Size: 0
+    [junit] java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+    [junit] 	at java.base/java.util.LinkedList.checkElementIndex(LinkedList.java:559)
+    [junit] 	at java.base/java.util.LinkedList.get(LinkedList.java:480)
+    [junit] 	at spath.testing.TestShortestPathSilent.genGraphAndTest(TestShortestPathSilent.java:52)
+    [junit] 	at spath.testing.TestShortestPathSilent.test(TestShortestPathSilent.java:28)
+    [junit] 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+    [junit] 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+    [junit] 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+    [junit] 
+
+BUILD FAILED
+/Users/puneetsachdeva/CSE247/cse247-support/build.xml:34: Test spath.testing.TestShortestPathSilent failed
+
+Total time: 0 seconds
+========
+Testing in ./GradingRepos/repos/cse247-f18-students-davidmoon: spath as of 2018-12-15 06:00
+========
+Now in: /Users/puneetsachdeva/CSE247/cse247-support/GradingRepos/repos/cse247-f18-students-davidmoon
+Your branch is up to date with 'origin/master'.
+HEAD is now at 3c9f7e8 robograde
+No local changes to save
+
+Already up to date.
+Going back in time to: 2018-12-15 06:00
+At hash 0d9b3bae35711293e1d1903962192734e186cafb
+
+Buildfile: /Users/puneetsachdeva/CSE247/cse247-support/build.xml
+
+copytest:
+     [echo] would copy from /Users/puneetsachdeva/CSE247/cse247-f18-students key davidmoon testfilesource testing/TestShortestPathSilent package spath repo ./GradingRepos/repos/cse247-f18-students-davidmoon
+Compiling the code
+Buildfile: /Users/puneetsachdeva/CSE247/cse247-support/build.xml
+
+compile:
+     [echo] Compiling spath/ShortestPaths
+    [mkdir] Created dir: /Users/puneetsachdeva/CSE247/cse247-support/GradingRepos/repos/cse247-f18-students-davidmoon/bin
+    [javac] Compiling 1 source file to /Users/puneetsachdeva/CSE247/cse247-support/GradingRepos/repos/cse247-f18-students-davidmoon/bin
+
+BUILD SUCCESSFUL
+Total time: 1 second
+Buildfile: /Users/puneetsachdeva/CSE247/cse247-support/build.xml
+
+compile:
+     [echo] Compiling spath/testing/TestShortestPathSilent
+    [javac] Compiling 1 source file to /Users/puneetsachdeva/CSE247/cse247-support/GradingRepos/repos/cse247-f18-students-davidmoon/bin
+
+BUILD SUCCESSFUL
+Total time: 1 second
+Running test testing.TestShortestPathSilent
+Buildfile: /Users/puneetsachdeva/CSE247/cse247-support/build.xml
+
+test:
+    [junit] Running spath.testing.TestShortestPathSilent
+    [junit] Testsuite: spath.testing.TestShortestPathSilent
+    [junit] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.026 sec
+    [junit] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.026 sec
+    [junit] 
+    [junit] Testcase: test took 0.004 sec
+    [junit] 	Caused an ERROR
+    [junit] Index: 0, Size: 0
+    [junit] java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+    [junit] 	at java.base/java.util.LinkedList.checkElementIndex(LinkedList.java:559)
+    [junit] 	at java.base/java.util.LinkedList.get(LinkedList.java:480)
+    [junit] 	at spath.testing.TestShortestPathSilent.genGraphAndTest(TestShortestPathSilent.java:52)
+    [junit] 	at spath.testing.TestShortestPathSilent.test(TestShortestPathSilent.java:28)
+    [junit] 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+    [junit] 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+    [junit] 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+    [junit] 
+
+BUILD FAILED
+/Users/puneetsachdeva/CSE247/cse247-support/build.xml:34: Test spath.testing.TestShortestPathSilent failed
+
+Total time: 0 seconds
+================
+Lab is not counted -- failed unit tests
+================
+
+CSE247 Robot tester ends testing spath on 2018-12-17 01:06:45 -0500
+-------------------

@@ -1,0 +1,62 @@
+Your TA's name:
+
+Students in your studio group:
+
+    Name        WUSTLKey (e.g. "jbuhler")
+	
+1.Junseo Moon	435473
+2.Huilin XU		466551
+4.
+5.
+6.
+
+Below each question, type in your short, to-the-point answers.
+
+Question A1:
+Output returns internal values of the points and not the hashcode.
+Question A2:
+IF the Contents of the points are equal, they should also have 
+equal hash code value.
+Question A3:
+int c = (x * 1234) + (y*1234);
+Question A4:
+No, because (2,0) and (1,1) would give the same answer.
+Question A5:
+return 0
+no, because all values will have the same hash code.
+Question B1:
+32 bits. Each integer takes 8 bits.
+Question B2:
+Yes, 32 bit integer gives all possible permutations.
+It would be possible that two distinct color has the same hash code.
+Doesn't mean they are of the same value.
+Question B3:
+Yes. Difference is about 40.
+Basically the same when the power of modulus increases.
+Question B4:
+32: about 40
+64: about 60
+128: about 40
+256: about 40
+The deviation isn't greatly important?
+Question C1:
+The hisogram is left skewed.
+Question C2:
+The histogram is more normally distributed. 
+Not really.
+Question C3:
+There are more variations. 
+The difference in runtime between buckets will vary.
+Affects Worst/ Best case scenario.
+Question D1:
+It depends on how large 2^k is?
+Modulus value can be clustered, potentially diminishing uniformity.
+Question D2:
+YEs.
+Question D3:
+
+Question D4:
+
+Question D5:
+
+Question D6:

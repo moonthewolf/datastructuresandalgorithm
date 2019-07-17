@@ -1,0 +1,120 @@
+-------------------
+CSE247 Robot tester starts testing hash on 2018-12-17 12:13:41 -0500
+
+========
+Testing in ./GradingRepos/repos/cse247-f18-students-davidmoon: hash as of 2018-11-03 00:05
+========
+Now in: /Users/puneetsachdeva/CSE247/cse247-support/GradingRepos/repos/cse247-f18-students-davidmoon
+Your branch is up to date with 'origin/master'.
+HEAD is now at 3c9f7e8 robograde
+No local changes to save
+
+Updating 3c9f7e8..f97368b
+Fast-forward
+ RoboGrade/spath-testing.TestShortestPathSilent.txt | 27 +++++++++++-----------
+ 1 file changed, 13 insertions(+), 14 deletions(-)
+Going back in time to: 2018-11-03 00:05
+At hash 72dd74f685d9d8f0ecb3ca61499e500cc2a0df84
+
+Buildfile: /Users/puneetsachdeva/CSE247/cse247-support/build.xml
+
+copytest:
+     [echo] would copy from /Users/puneetsachdeva/CSE247/cse247-f18-students key davidmoon testfilesource test/TestStringTable package hash repo ./GradingRepos/repos/cse247-f18-students-davidmoon
+     [copy] Copying 1 file to /Users/puneetsachdeva/CSE247/cse247-support/GradingRepos/repos/cse247-f18-students-davidmoon/labs/hash/test
+
+BUILD SUCCESSFUL
+Total time: 0 seconds
+Compiling the code
+Buildfile: /Users/puneetsachdeva/CSE247/cse247-support/build.xml
+
+compile:
+     [echo] Compiling hash/Record
+    [mkdir] Created dir: /Users/puneetsachdeva/CSE247/cse247-support/GradingRepos/repos/cse247-f18-students-davidmoon/bin
+    [javac] Compiling 1 source file to /Users/puneetsachdeva/CSE247/cse247-support/GradingRepos/repos/cse247-f18-students-davidmoon/bin
+
+BUILD SUCCESSFUL
+Total time: 0 seconds
+Buildfile: /Users/puneetsachdeva/CSE247/cse247-support/build.xml
+
+compile:
+     [echo] Compiling hash/StringTable
+    [javac] Compiling 1 source file to /Users/puneetsachdeva/CSE247/cse247-support/GradingRepos/repos/cse247-f18-students-davidmoon/bin
+
+BUILD SUCCESSFUL
+Total time: 0 seconds
+Buildfile: /Users/puneetsachdeva/CSE247/cse247-support/build.xml
+
+compile:
+     [echo] Compiling hash/test/TestStringTable
+    [javac] Compiling 1 source file to /Users/puneetsachdeva/CSE247/cse247-support/GradingRepos/repos/cse247-f18-students-davidmoon/bin
+    [javac] Note: /Users/puneetsachdeva/CSE247/cse247-support/GradingRepos/repos/cse247-f18-students-davidmoon/labs/hash/Main.java uses or overrides a deprecated API.
+    [javac] Note: Recompile with -Xlint:deprecation for details.
+
+BUILD SUCCESSFUL
+Total time: 0 seconds
+Running test test.TestStringTable
+Buildfile: /Users/puneetsachdeva/CSE247/cse247-support/build.xml
+
+test:
+    [junit] Running hash.test.TestStringTable
+    [junit] Testsuite: hash.test.TestStringTable
+    [junit] Testing DNA test case 1
+    [junit] Observed output for case1 matches expected output!
+    [junit] 
+    [junit] Testing DNA test case 2
+    [junit] Observed output for case2 matches expected output!
+    [junit] 
+    [junit] Testing DNA test case 3
+    [junit] Observed output for case3 matches expected output!
+    [junit] 
+    [junit] Testing DNA test case 4
+    [junit] Observed output for case4 matches expected output!
+    [junit] 
+    [junit] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.042 sec
+    [junit] Output:
+    [junit] Testing DNA test case 1
+    [junit] Observed output for case1 matches expected output!
+    [junit] 
+    [junit] Testing DNA test case 2
+    [junit] Observed output for case2 matches expected output!
+    [junit] 
+    [junit] Testing DNA test case 3
+    [junit] Observed output for case3 matches expected output!
+    [junit] 
+    [junit] Testing DNA test case 4
+    [junit] Observed output for case4 matches expected output!
+    [junit] 
+    [junit] 
+    [junit] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.042 sec
+    [junit] ------------- Standard Output ---------------
+    [junit] Testing DNA test case 1
+    [junit] Observed output for case1 matches expected output!
+    [junit] 
+    [junit] Testing DNA test case 2
+    [junit] Observed output for case2 matches expected output!
+    [junit] 
+    [junit] Testing DNA test case 3
+    [junit] Observed output for case3 matches expected output!
+    [junit] 
+    [junit] Testing DNA test case 4
+    [junit] Observed output for case4 matches expected output!
+    [junit] 
+    [junit] ------------- ---------------- ---------------
+    [junit] 
+    [junit] Testcase: testDNA1 took 0.047 sec
+    [junit] Testcase: testDNA2 took 0.011 sec
+    [junit] Testcase: testDNA3 took 0.321 sec
+    [junit] Testcase: testDNA4 took 0.62 sec
+    [junit] Testcase: testFind took 0.02 sec
+    [junit] Testcase: testInit took 0 sec
+    [junit] Testcase: testDelete took 0.001 sec
+    [junit] Testcase: testInsert took 0.001 sec
+
+BUILD SUCCESSFUL
+Total time: 1 second
+================
+Lab is counted as working
+================
+
+CSE247 Robot tester ends testing hash on 2018-12-17 12:13:51 -0500
+-------------------

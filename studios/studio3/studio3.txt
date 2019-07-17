@@ -1,0 +1,32 @@
+A1: ChronoLocalDate, ChronoLocalDateTime<D>, Name
+A2: 
+- -1
+- 1
+- -1
+- 0
+A3:
+Class JapaneseDate
+default int compareTo(ChronoLocalDate other)
+based first on the underlying time-line date, if the other 
+value has a smaller chronological ID, it is considered as "less than".
+
+B1:
+1.Big theta 1
+2.Big theta 1
+3.Big Theta N
+
+B2:
+1. Big theta 1
+2. Big theta 1
+3. Big Theta N
+
+C1: 
+-Big theta N
+-Big theta N
+-Big theta N^2
+C2:
+-Big theta 1
+-Big theta N^2
+-Big theta N
+C3:
+heap has to maintain order, unordered list does not.

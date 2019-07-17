@@ -1,0 +1,33 @@
+A1. 2T(n-1) + 2
+A2. 2^n
+A3. n = 1 => 2, 
+	 F(n) = 2F(n-1) + 2
+	 2^n = 2* 2^(n-1) + 2
+	 (2^(n+1) - 2) = 2*(2^n + 1)
+	 (2^(n+1) - 2) = 2 * (2^n -2) +2
+	 2^(n+1) -2 = 2^(n+1) -4 +2 = 2^(n+1) - 2
+	 Summation i=0 to n, 2 ^(i+1) -2
+	
+B1.T(n) = T(n/2) + n^3
+Depth		P size 	nodes	
+0			n		1		n^3
+1			n/2		1		(n/2)^3
+2			n/4		1		(n/4)^3
+3			n/8		1		(n/8)^3
+logbase 2 n 1		1		(n/16)^3
+
+Big Theta is n^3
+
+B2.2^(i+1)n
+
+cn^2 + summation from i = 0 to logbase 2n, 2^(i1) *n
+	2n (summation from i-1 to logbase 2 n-1, 2^i)
+ = 2n((1-2logbase2 n)/-1)
+big theta = n^2
+
+  cn + dn (logbase 3n) 
+
+ 
+
+
+			

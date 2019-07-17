@@ -1,0 +1,58 @@
+Your TA's name: Robert Landlord
+
+Students in your studio group:
+
+    Name        WUSTLKey (e.g. "jbuhler")
+	
+1. Ian Katzman ikatzman
+2.pranav.jain
+3.Brandon Wilburn brandon.wilburn
+4.
+5.
+6.
+
+Below each question, type in your short, to-the-point answers.
+
+Question A1:
+1. Find first if there are elements in Array A and Array B
+2. Some value A min and B min
+3. compare two elements, put lower value at C
+4. A or B min which was extracted, set its value at original array to null. 
+
+Question A2:
+We convinced our TA Robert.
+
+Question A3:
+Yes. After the original value is replaced with null, the value of i or j can be set as i+1 or j+1
+
+Question A4:
+The loop will run as long as there are elements in array A and array B
+The loop will add elements to Array C as long as the loop is running.
+The array will be completed when there are no elements of value other than null in array A and B.
+Therefore, Array C will contain (elements of A + elements of B) elements.
+Question A5:
+It's going to run until A and B is empty.
+Loop will sort either of the two elements in order.
+
+Question B1:
+n
+
+Question B2:
+T(n) = 2(t(n/2)) + cn
+Question B3:
+BigTheta(nlogn)
+Question B4:
+k(t(n/k)) + cn
+Question B5:
+BigTheta(nlogn)
+Question C1:
+nlog(n)
+Question C2:
+Over-write the pre-existing arrays, so you would only need an array of size n, and two arrays n/2.
+Question C3:
+Because heapsort requires one heap, it wouldn't need two arrays like mergesort.
+Requires less memory.
+Question C4:
+plug in elements of array A into the heap by using decreaser.
+Question C5:
+insert into the array n-1 to 0.
